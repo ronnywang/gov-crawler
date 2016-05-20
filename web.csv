@@ -202,7 +202,7 @@ www.df.gov.tw,行政院國家發展基金-國發基金
 www.archives.gov.tw,"國家發展委員會檔案管理局 – 全球資訊網"
 win.dgbas.gov.tw,行政院主計總處
 gpivp.nat.gov.tw,ERROR
-cpabom.dgpa.gov.tw,
+cpabom.dgpa.gov.tw,IIS7
 ws.ndc.gov.tw,
 index.ndc.gov.tw,國發會-景氣指標查詢系統
 www.tcap.ndc.gov.tw,"共築方舟－氣候變遷調適入口網 - 共築方舟—氣候變遷調適入口網"
@@ -215,7 +215,7 @@ news.immigration.gov.tw,新移民全球新聞網
 web.moi.gov.tw,內政部機關網站評獎
 open2u.mac.gov.tw,
 investtaiwan.nat.gov.tw,"投資台灣入口網 - 首頁"
-law.mac.gov.tw,
+law.mac.gov.tw,行政院大陸委員會-主管法規查詢系統(外部版)
 www2.mac.gov.tw,陸委會關懷大陸配偶專區
 tbboss.tbroc.gov.tw,交通部觀光局民意信箱
 tour.penghu.gov.tw,澎湖逍遙遊
@@ -230,7 +230,7 @@ www.exam.gov.tw,"考試院全球資訊網 The Examination Yuan of ROC"
 weblaw.exam.gov.tw,最新消息-全國人事法規釋例資料庫檢索系統
 nit.immigration.gov.tw,
 ai.gov.tw,禽流感資訊專區-動植物防疫檢疫局
-web3.dgpa.gov.tw,
+web3.dgpa.gov.tw,行政院人事行政總處事求人機關徵才系統
 iocs.mocs.gov.tw,
 www.moex.gov.tw,"考選部 全球資訊網歡迎頁"
 news.ey.gov.tw,
@@ -368,7 +368,7 @@ public.thb.gov.tw,"IIS Windows Server"
 suhua.thb.gov.tw,"交通部公路總局蘇花公路改善工程處 Suhua Improveme"
 ppstrq.nat.gov.tw,
 www.motc.gov.tw,中華民國交通部
-lims.thb.gov.tw,
+lims.thb.gov.tw,交通部公路總局LIMS入口網站
 data.gov.tw,政府資料開放平臺
 web.epa.gov.tw,行政院環境保護署
 ienv.epa.gov.tw,"愛環境 - 行政院環境保護署"
@@ -414,9 +414,9 @@ emis.epa.gov.tw,"環境災害管理資訊系統. V3.0326"
 a0-oaout.epa.gov.tw,"Microsoft Internet Information Services 8"
 a0-moenrhome.epa.gov.tw,
 chiefmesg.dgpa.gov.tw,"行政院人事行政總處- Directorate-General of Personnel Administration,Executive Yuan"
-ecpa.dgpa.gov.tw,
+ecpa.dgpa.gov.tw,"人事服務網 -"
 pics.dgpa.gov.tw,PICS人事資訊系統客服網
-eserver.dgpa.gov.tw,
+eserver.dgpa.gov.tw,公務福利e化平台
 web.dgpa.gov.tw,"行政院人事行政總處- Directorate-General of Personnel Administration,Executive Yuan"
 lifelonglearn.dgpa.gov.tw,
 www.cepd.gov.tw,
@@ -543,7 +543,7 @@ citybus-free.taichung.gov.tw,"臺中市友善公車到站時間查詢 | 歡迎�
 ezgoen.coa.gov.tw,->
 trade.coa.gov.tw,
 tpbg.tfri.gov.tw,台北植物園
-priceinquire.afa.gov.tw,
+priceinquire.afa.gov.tw,行政院農業委員會農糧署-糧商登錄系統
 apis.afa.gov.tw,
 m.coa.gov.tw,系統發生錯誤
 dataset.tjia.gov.tw,公務統計報表與資料輯整合系統
@@ -649,6 +649,12 @@ info.gio.gov.tw,
 csnn.osha.gov.tw,CSNN化學物質登記管理
 chemreg-border.epa.gov.tw,"貨品通關事前聲明確認平台 Pre-Confirmation of Chemical Commodity Importation"
 atftp.epa.gov.tw,"行政院環境保護署 ─ 環保訴願"
+twtraffic.tra.gov.tw,臺灣鐵路管理局-火車時刻查詢系統
+world.dgpa.gov.tw,
+cpamsg.dgpa.gov.tw,
+svrorg.dgpa.gov.tw,
+pdu.dgpa.gov.tw,
+web2.dgpa.gov.tw,
 246eng.swcb.gov.tw,"246-Debris Flow disaster prevention information"
 ezgo.coa.gov.tw,農業易遊網
 246kids.swcb.gov.tw,土石流防災親子網
@@ -1251,7 +1257,6 @@ acenter.taichung.gov.tw,臺中市里活動中心E化資訊網
 safe.tccf.gov.tw,臺中市政府消防局
 www.legal-mediate.taichung.gov.tw,行動線上申請調解服務系統
 uip.taichung.gov.tw,
-twtraffic.tra.gov.tw,臺灣鐵路管理局-火車時刻查詢系統
 nantun-travel.taichung.gov.tw,"臺中南屯咖咖尋遊網 - 首頁"
 fengyuan-travel.taichung.gov.tw,豐原文化觀光網
 old.fengyuan.taichung.gov.tw,臺中市豐原區公所
@@ -1536,9 +1541,9 @@ traffic.pthg.gov.tw,屏東縣交通安全宣導團
 www-ws.pthg.gov.tw,
 open.pthg.gov.tw,
 lioulibridge.pthg.gov.tw,屏東山川琉璃吊橋預約系統
-law.kinmen.gov.tw,
+law.kinmen.gov.tw,金門縣政府-主管法規查詢系統(外部版)
 e-service.kinmen.gov.tw,金門縣網路e櫃台
-1999.kinmen.gov.tw,
+1999.kinmen.gov.tw,"金門縣 1999"
 www.kgpc.gov.tw,"金門採購招標所 Kinmen Procurement Bidding Office全球資訊網"
 mapcloud.kinmen.gov.tw,金門圖資雲
 pipe.kinmen.gov.tw,
@@ -1737,7 +1742,7 @@ www.ly.gov.tw,
 www.tpc.gov.tw,
 animal.coa.gov.tw,
 www.kaohsiung.gov.tw,高雄市政府全球資訊網
-publichealth.kchb.gov.tw,
+publichealth.kchb.gov.tw,高雄市政府衛生局癌症健康篩檢便利網
 citybus.tccg.gov.tw,
 e-traffic.tccg.gov.tw,
 tcparking.taichung.gov.tw,臺中市停車管理處
@@ -1780,7 +1785,7 @@ ihrip.evta.gov.tw,產業人才投資方案計畫網
 www.kpptr-multi.nat.gov.tw,105年多元就業開發方案網站
 hrstats.dgpa.gov.tw,
 cas.ebas.gov.tw,
-law.dgbas.gov.tw,
+law.dgbas.gov.tw,行政院主計總處-主管法規查詢系統(外部版)
 pxweb.bas.ntpc.gov.tw,"Microsoft Internet Information Services 8"
 statsvy.dgbas.gov.tw,
 www.audit.gov.tw,
@@ -2227,6 +2232,10 @@ landpebook.kcg.gov.tw,電子書展示
 housing.kcg.gov.tw,
 kproad.kcg.gov.tw,高屏道路挖掘資訊網
 cwsu.kcg.gov.tw,高雄市政府工程施工查核小組
+mscs.hpa.gov.tw,
+boc.hpa.gov.tw,大乳口系統
+pfp.hpa.gov.tw,網頁錯誤
+hosplab.hpa.gov.tw,子宮頸抹片篩檢申報子系統
 php.ejob.gov.tw,
 emap3.nlsc.gov.tw,Redirect
 www.evta.gov.tw,勞動力發展署
@@ -2546,6 +2555,8 @@ tauyuan.kcg.gov.tw,高雄市桃源區公所
 pipegis.kcg.gov.tw,高雄市公共管線管理平台
 pwbroad.kcg.gov.tw,"Microsoft Internet Information Services 8"
 publicwork.kscg.gov.tw,
+oral.hpa.gov.tw,
+colon.hpa.gov.tw,
 exam.taiwanjobs.gov.tw,
 occupation.taiwanjobs.gov.tw,Jobooks工作百科
 se.wda.gov.tw,
@@ -2587,7 +2598,7 @@ www.ttshb.gov.tw,臺東縣衛生局全球資訊網
 www.hlshb.gov.tw,
 www.ilshb.gov.tw,宜蘭縣政府衛生局
 www.ntshb.gov.tw,南投縣政府衛生局
-www.kmhb.gov.tw,
+www.kmhb.gov.tw,金門縣衛生局
 www.matsuhb.gov.tw,歡迎光臨連江縣衛生局
 mail.tychb.gov.tw,
 dentures.tychb.gov.tw,桃園市政府衛生局老人免費補助活動假牙系統
@@ -2714,7 +2725,7 @@ www.klsy-house.gov.tw,基隆市信義區戶政事務所-
 www.kljj-house.gov.tw,基隆市中正區戶政事務所－網站入口
 www.klaphio.gov.tw,基隆市動物保護防疫所
 klms.klcg.gov.tw,"Welcome to 基隆市立體育場(Keelung Municipal Stadium)"
-www.kltb.gov.tw,
+www.kltb.gov.tw,"基隆市稅務局 -首頁"
 www.klrah.gov.tw,基隆市立仁愛之家-首頁
 www.klms.gov.tw,基隆市殯葬管理所
 www.kmh.gov.tw,"基隆市立醫院 Keelung Municipal Hospital"
@@ -2887,6 +2898,7 @@ regis.klcg.gov.tw,基隆市政府住宅及不動產資訊服務網
 gis.klcg.gov.tw,
 www.ncpfs.gov.tw,
 mgtp.good.nat.gov.tw,"Apache2 Ubuntu Default Page: It works"
+safe.klcg.gov.tw,基隆市政府交通安全宣導網
 netreg.kmh.gov.tw,網路掛號
 klsws.klcg.gov.tw,基隆個案管理系統
 www.apb.gov.tw,航空警察局全球資訊網
@@ -2902,7 +2914,7 @@ www.ptpolice.gov.tw,
 ilcpb.e-land.gov.tw,宜蘭縣政府警察局
 www.hlpb.gov.tw,花蓮縣警察局
 www.ttcpb.gov.tw,"臺東縣警察局 全球資訊網"
-www.kpb.gov.tw,
+www.kpb.gov.tw,金門縣警察局
 cert.dgbas.gov.tw,
 www.land.tycg.gov.tw,
 land.e-land.gov.tw,宜蘭縣政府地政處-首頁
@@ -2988,7 +3000,7 @@ safety.ncpb.gov.tw,南投縣警察局婦幼隊
 eng.ncpb.gov.tw,"::Nantou County Police Bureau::"
 traffic.nantou.gov.tw,南投縣-即時交通資訊網
 jiaowei.ncpb.gov.tw,IIS7
-imf.nantou.gov.tw,
+imf.nantou.gov.tw,南投縣政府縣民通報即時平台
 nantou.ncpb.gov.tw,南投縣政府警察局-南投分局
 tsaotun.ncpb.gov.tw,南投縣政府警察局-草屯分局
 puli.ncpb.gov.tw,南投縣政府警察局-埔里分局
@@ -3151,4 +3163,4 @@ www.ilcpb-tpb.gov.tw,歡迎光臨宜蘭縣政府警察局路邊停車管理場
 pwbncd.kcg.gov.tw,高雄市政府新建工程處
 sewergis.kcg.gov.tw,高雄市政府水利局-污水下水道使用費便民服務
 kaohds.kcg.gov.tw,IIS7
-odm.kcg.gov.tw,
+odm.kcg.gov.tw,高雄市政府第二代公文整合系統-登入畫面
