@@ -4,7 +4,7 @@ class Crawler
 {
     protected $_cache = array();
 
-    public function getContentFromURL($url)
+    public function getContentFromURL($url, &$info)
     {
         $timeout = 10;
         $ret = parse_url($url);
@@ -12,7 +12,7 @@ class Crawler
         $hash = crc32($url);
         $target = "html/{$domain}-{$hash}";
         if (file_exists($target)) {
-            list($info, $content) = explode("\n", file_get_contents($target), 2);
+            list($info, $content) = explode("\n", gzdecode(file_get_contents($target)), 2);
             $info = json_decode($info);
             if ($info->http_code == 0) {
                 //unlink($target);
@@ -25,13 +25,14 @@ class Crawler
             curl_setopt($curl, CURLOPT_TIMEOUT, $timeout);
             curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_HEADER, true);
             curl_setopt($curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
             $content = curl_exec($curl);
             $info = curl_getinfo($curl);
-            file_put_contents($target, json_encode($info) . "\n" . $content);
+            file_put_contents($target, gzencode(json_encode($info) . "\n" . $content));
         }
 
-        list($info, $content) = explode("\n", file_get_contents($target), 2);
+        list($info, $content) = explode("\n", gzdecode(file_get_contents($target)), 2);
         $info = json_decode($info);
         if ($info->http_code == 200) {
             return $content;
@@ -49,7 +50,7 @@ class Crawler
         $domain = array_shift($keys);
         $url = 'http://' . $domain;
 
-        $content = self::getContentFromURL($url);
+        $content = self::getContentFromURL($url, $info);
 
         if (!$content) {
             $url = urldecode($this->_cache->pendings->{$domain});
@@ -65,7 +66,14 @@ class Crawler
                 $title = '';
             }
         }
-        fputcsv($this->output, array($domain, $title));
+        preg_match('#Server: (.*)#', $content, $matches);
+        $title = str_replace("\n", "", $title);
+        fputcsv($this->output, array(
+            $domain,
+            $title,
+            $info->primary_ip,
+            trim($matches[1]),
+        ));
         $this->_cache->result->{$domain} = $title;
         array(
             'title' => $title,
@@ -104,7 +112,7 @@ class Crawler
     public function main()
     {
         $this->output = fopen('php://output', 'w');
-        fputcsv($this->output, array('domain', 'title'));
+        fputcsv($this->output, array('domain', 'title', 'ip', 'server'));
         if (false and file_exists('cache.json')) {
             $this->_cache = json_decode(file_get_contents('cache.json'));
         } else {
